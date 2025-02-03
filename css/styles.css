@@ -640,9 +640,9 @@ p {
 
 .modal-close:hover,
 .modal-close:focus {
+  fill: #ffffff;
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 
 .modal-close-icon {
@@ -707,8 +707,8 @@ p {
   position: relative;
 }
 
-.modal-field {
-  margin-bottom: 8px;
+.modal-text {
+  margin-bottom: 16px;
 }
 
 .modal-textarea {
@@ -739,6 +739,10 @@ p {
   color: rgba(46, 47, 66, 0.4);
 }
 
+.modal-check {
+  margin-bottom: 24px;
+}
+
 .modal-check:checked + .modal-policy-text .modal-policy-item {
   border: none;
   background-color: #404bbf;
@@ -747,7 +751,7 @@ p {
 
 .modal-policy-text {
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: flex;
@@ -759,13 +763,16 @@ p {
 .modal-policy-item {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-check-link {
@@ -800,3 +807,7 @@ p {
 .modal-btn-submit:focus {
   fill: #ffffff;
 }
+
+/* .modal-form-text {
+  margin-bottom: 16px;
+} */
