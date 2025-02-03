@@ -530,8 +530,6 @@ p {
 .footer-input {
   border: 1px solid #fff;
   border-radius: 4px;
-  width: 264px;
-  height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
   width: 254px;
@@ -542,6 +540,8 @@ p {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
+  height: 40px;
+  width: 264px;
 }
 
 .footer-input::placeholder {
@@ -673,6 +673,7 @@ p {
   padding-right: 16px;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
 
 .modal-input:focus {
@@ -718,6 +719,12 @@ p {
   outline: transparent;
   resize: none;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea:focus {
@@ -788,6 +795,15 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-btn-submit:hover,
+.modal-btn-submit:focus {
+  fill: #ffffff;
+}
+
 .modal-botton {
   margin-bottom: 16px;
+}
+
+.modal-check {
+  margin-bottom: 24px;
 }
