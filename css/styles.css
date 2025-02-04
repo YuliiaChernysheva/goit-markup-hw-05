@@ -559,7 +559,7 @@ p {
   border-radius: 4px;
   min-width: 165px;
   min-height: 40px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -572,7 +572,7 @@ p {
 
 .footer-btn-subscribe {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 .btn-icon {
@@ -820,5 +820,5 @@ p {
 .modal-btn-submit:hover,
 .modal-btn-submit:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #404bbf;
+  background-color: #404bbf;
 }
